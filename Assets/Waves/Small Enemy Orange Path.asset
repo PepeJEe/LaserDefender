@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7860aa08223bd247848ad26cd83e830, type: 3}
+  m_Name: Small Enemy Orange Path
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 8429301712003450588, guid: ba59e70da1792584eb638840638a0626,
+    type: 3}
+  pathPrefab: {fileID: 2669297450420229513, guid: ce263751870db6548bf0c046e13fb281,
+    type: 3}
+  timeBetweenSpawns: 0.3
+  spawnRandomFactor: 0.5
+  numberOfEnemies: 10
+  moveSpeed: 7

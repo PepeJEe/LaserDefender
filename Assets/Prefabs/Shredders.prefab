@@ -1,0 +1,320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3465877703806336499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3465877703806336498}
+  m_Layer: 0
+  m_Name: Shredders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3465877703806336498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465877703806336499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.35636, y: 2.2249637, z: -230.07083}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3465877705019837545}
+  - {fileID: 3465877704693484616}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3465877704693484617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8103000563373984771, guid: c044b29b6f04cd4468f93b7ffef908c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 3465877704205875610}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3465877704693484616}
+  - component: {fileID: 3465877704693484618}
+  - component: {fileID: 3465877704693484619}
+  m_Layer: 0
+  m_Name: Laser Shredder Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3465877704693484616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 3465877704205875610}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465877704693484617}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.349, y: -15.699, z: 230.07083}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3465877703806336498}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &3465877704693484618
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8103000563373984769, guid: c044b29b6f04cd4468f93b7ffef908c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 3465877704205875610}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465877704693484617}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.04347372, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.695286, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &3465877704693484619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8103000563373984768, guid: c044b29b6f04cd4468f93b7ffef908c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 3465877704205875610}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465877704693484617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3952faa4a8c133f478bea12b3e3745ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3465877705019837524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8103000563373984771, guid: c044b29b6f04cd4468f93b7ffef908c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4641770289994465367}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3465877705019837545}
+  - component: {fileID: 3465877705019837526}
+  - component: {fileID: 3465877705019837527}
+  m_Layer: 0
+  m_Name: Laser Shredder Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3465877705019837545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4641770289994465367}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465877705019837524}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.35636, y: 10.71, z: 230.07083}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3465877703806336498}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &3465877705019837526
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8103000563373984769, guid: c044b29b6f04cd4468f93b7ffef908c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4641770289994465367}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465877705019837524}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.26882267, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.644018, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &3465877705019837527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8103000563373984768, guid: c044b29b6f04cd4468f93b7ffef908c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4641770289994465367}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465877705019837524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3952faa4a8c133f478bea12b3e3745ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3465877704205875610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3465877703806336498}
+    m_Modifications:
+    - target: {fileID: 8103000563373984771, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_Name
+      value: Laser Shredder Bottom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.35636
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.224964
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 230.07083
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c044b29b6f04cd4468f93b7ffef908c3, type: 3}
+--- !u!1001 &4641770289994465367
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3465877703806336498}
+    m_Modifications:
+    - target: {fileID: 8103000563373984771, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_Name
+      value: Laser Shredder Top
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.35636
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.275036
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 230.07083
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103000563373984830, guid: c044b29b6f04cd4468f93b7ffef908c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c044b29b6f04cd4468f93b7ffef908c3, type: 3}
